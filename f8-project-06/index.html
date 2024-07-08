@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <!-- Reset.css -->
+    <link rel="stylesheet" href="./asset/css/reset.css">
+
+    <!-- Style.css -->
+    <link rel="stylesheet" href="./asset/css/styles.css">
+
+    <!-- Grid -->
+    <link rel="stylesheet" href="./asset/css/grid.css">
+
+    <!-- responsive -->
+     <link rel="stylesheet" href="./asset/css/responsive.css">
+
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="57x57" href="./asset/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./asset/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./asset/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./asset/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./asset/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./asset/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./asset/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./asset/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./asset/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./asset/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./asset/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./asset/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./asset/favicon/favicon-16x16.png">
+    <link rel="manifest" href="./asset/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="./asset/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+
+    <!-- animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header"> 
+        <div class="header__container">
+
+            <!-- PC -->
+            <nav class="header__nav">
+                <div class="header__group">
+                    <a href="mailto:hi@arif.interactive" class="header__mail">
+                        <img src="./asset/img/Group 18380.svg" alt="" class="header__thumb">
+                    
+                        <p class="header__link">hi@arif.interactive</p>
+                    </a>
+
+                    <label for="menu-checkbox" class="toggle-menu">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                            <ellipse opacity="0.2" cx="17" cy="16.9338" rx="16" ry="15.5938" stroke="#5D3BEE"/>
+                            <path d="M10 19.8577H25" stroke="#5D3BEE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M10 14.01H25" stroke="#5D3BEE" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </label>
+                </div>
+
+                <!-- logo -->
+                <div>
+                    <a href="./" class="header__img">
+                        <img src="./asset/img/Memoji Boys 13-24.png" alt="" class="header__logo">
+                    </a>
+                </div>
+
+                <div class="header__list">
+                    <ul>
+                        <li>
+                            <a href="#!" class="header__item">Projects</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="header__item">Journey</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="header__item">Service</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="header__item">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Tablet/mobile -->
+    <header class="header-fixed">
+        <input type="checkbox" name="" id="menu-checkbox" class="menu-checkbox" hidden>
+
+        <label for="menu-checkbox">
+            <div class="menu-overlay"></div>
+        </label>
+
+        <div class="menu-drawer">
+            <ul>
+                <li>
+                    <a href="#!" class="header__item">Projects</a>
+                </li>
+                <li>
+                    <a href="#!" class="header__item">Journey</a>
+                </li>
+                <li>
+                    <a href="#!" class="header__item">Service</a>
+                </li>
+                <li>
+                    <a href="#!" class="header__item">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+        <!-- hero -->
+        <div class="hero">
+            <div class="container">
+                <div class="hero__wrap row">
+                    <div class="col-lg-6 col-sm-12">
+                        <div class="hero__left">
+                            <img src="./asset/img/young-handsome-man-with-beard-isolated-keeping-arms-crossed-frontal-position 1.svg" alt="" class="hero__img">
+                        </div>
+                    </div>
+
+                    <div class="col-lg-5 offset-1">
+                        <div class="hero__right">
+                            <h1 class="heading hero__heading">An Interactive Designer</h1>
+    
+                            <p class="desc hero__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+    
+                            <div class="hero__action">
+                                <a href="#!" class="btn hero__btn">Book a Call</a>
+    
+                                <a href="#!" class="hero__link">My Works</a>
+                            </div>
+    
+                            <div class="hero__social">
+                                <p class="desc">Follow me on:</p>
+    
+                                <a href="#!">
+                                    <img src="./asset/img/Group 18351.svg" alt="" class="hero__logo">
+                                </a>
+                            </div>
+                            
+                            <img src="./asset/img/Group 18387.svg" alt="" class="hero__decor">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- client -->
+        <div class="client">
+            <div class="container">
+                <div class="client__wrap row">
+                    <div class="col-12 col-lg-4">
+                        <div class="client__content">
+                            <div class="client__bar"></div>
+                            
+                            <h3 class="heading-3 client__heading">Meet my recent clients</h3>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-8">
+                        <div class="client__social row row-cols-lg-4 row-cols-md-4">
+                            <div class="col">
+                                <a href="#!" class="client__link">
+                                    <img src="./asset/img/google.svg" alt="" class="client__logo">
+
+                                    <p class="client__desc">Google</p>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#!" class="client__link">
+                                    <img src="./asset/img/warner.svg" alt="" class="client__logo client__warner">
+
+                                    <p class="client__desc">Warner Bros</p>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#!" class="client__link">
+                                    <img src="./asset/img/mailchimp.svg" alt="" class="client__logo">
+
+                                    <p class="client__desc">Mailchimp</p>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#!" class="client__link">
+                                    <img src="./asset/img/adobe.svg" alt="" class="client__logo">
+
+                                    <p class="client__desc">Adobe</p>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#!" class="client__link">
+                                    <img src="./asset/img/upwork.svg" alt="" class="client__logo client__upwork">
+
+                                    <p class="client__desc">Upwork</p>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#!" class="client__link">
+                                    <img src="./asset/img/creative.svg" alt="" class="client__logo">
+
+                                    <p class="client__desc">Creative Cloud</p>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#!" class="client__link">
+                                    <img src="./asset/img/woocom.svg" alt="" class="client__logo">
+
+                                    <p class="client__desc">Woocommerce</p>
+                                </a>
+                            </div>
+
+                            <div class="col">
+                                <a href="#!" class="client__link">
+                                    <img src="./asset/img/canva.svg" alt="" class="client__logo">
+
+                                    <p class="client__desc">Canva</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- service -->
+        <div class="service">
+            <div class="container">
+                <div class="service__wrap">
+                    <h2 class="heading-2">Specialities</h2>
+
+                    <p class="desc service__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+
+                    <div class="service__list row">
+                        <div class="col-lg-4 col-md-12">
+                            <div class="service__item">
+                                <img src="./asset/img/icon (2).svg" alt="" class="service__img">
+    
+                                <h4 class="heading-4 service__heading-4">Product design</h4>
+    
+                                <p class="desc">Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl solor ut elementum turpis.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-12">
+                            <div class="service__item">
+                                <img src="./asset/img/icon.svg" alt="" class="service__img">
+    
+                                <h4 class="heading-4 service__heading-4">UI/UX Design</h4>
+    
+                                <p class="desc">Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl solor ut elementum turpis.</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-12">
+                            <div class="service__item">
+                                <img src="./asset/img/icon (1).svg" alt="" class="service__img">
+    
+                                <h4 class="heading-4 service__heading-4">Interactive design</h4>
+    
+                                <p class="desc">Lorem ipsum dolor sit amet, solor adipiscing elit. Non nisl solor ut elementum turpis.</p>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="project">
+            <div class="container">
+                <div class="project__wrap">
+                    <div class="project__content row">
+                        <div class="col-lg-5">
+                            <h2 class="heading-2 project__heading">Take a look at <br>my recent projects</h2>
+                        </div>
+
+                        <div class="col-lg-4 offset-lg-1">
+                            <p class="desc project__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+                        </div>
+                    </div>
+
+                    <div class="project__list row row-cols-1 row-cols-lg-2">
+                        <div class="col">
+                            <div class="project__item">
+                                <div class="project__item-content">
+                                    <h4 class="heading-4">Wally Website</h4>
+    
+                                    <p class="project__item-desc">Lorem ipsum dolor amet, consectetur adipiscing st elit.</p>
+    
+                                    <a href="#!" class="project__link">Case Study</a>
+                                </div>
+
+                                <img src="./asset/img/Rectangle 550.svg" alt="" class="project__img"> 
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="project__item">
+                                <div class="project__item-content">
+                                    <h4 class="heading-4">Banking App</h4>
+    
+                                    <p class="project__item-desc">Lorem ipsum dolor amet, consectetur adipiscing st elit.</p>
+    
+                                    <a href="#!" class="project__link">Case Study</a>
+                                </div>
+
+                                <img src="./asset/img/Rectangle 557.svg" alt="" class="project__img">    
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="project__item">
+                                <div class="project__item-content">
+                                    <h4 class="heading-4">Web App</h4>
+    
+                                    <p class="project__item-desc">Lorem ipsum dolor amet, consectetur adipiscing st elit.</p>
+    
+                                    <a href="#!" class="project__link">Case Study</a>
+                                </div>
+
+                                <img src="./asset/img/Rectangle 554.svg" alt="" class="project__img">    
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="project__item">
+                                <div class="project__item-content">
+                                    <h4 class="heading-4">Oculus Website</h4>
+    
+                                    <p class="project__item-desc">Lorem ipsum dolor amet, consectetur adipiscing st elit.</p>
+    
+                                    <a href="#!" class="project__link">Case Study</a>
+                                </div>
+
+                                <img src="./asset/img/Rectangle 553.svg" alt="" class="project__img">       
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project__action row">
+                        <div class="col-12 offset-5">
+                            <a href="#!" class="btn project__btn">All Projects</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about">
+            <div class="container">
+                <div class="about__wrap">
+                    <div class="about__content">
+                        <div class="about__label">
+                            <div class="about__text">Hey,,,,It’s Arif</div>
+
+                            <img src="./asset/img/image 296.svg" alt="" class="about__icon">
+                        </div>
+
+                        <h2 class="heading-2">Interactive Designer</h2>
+
+                        <p class="desc about__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+                    </div>
+
+                    <div class="about__row row-cols-lg-3">
+                        <div class="col">
+                            <div class="about__group">
+                                <div class="about__inner">
+                                    <div class="about__stats">08+</div>
+        
+                                    <p class="desc">Years Experience</p>
+                                </div>
+    
+                                <div class="about__inner">
+                                    <div class="about__stats">21+</div>
+        
+                                    <p class="desc">Features & Awards</p>
+                                </div>
+    
+                                <div class="about__inner">
+                                    <div class="about__stats">97%</div>
+        
+                                    <p class="desc">Clients Rating</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="about__social">
+                        <video id="videomp4" class="about__video">
+                            <source
+                                src="./asset/video/Video ngắn chill buồn 2021.mp4"
+                                type="video/mp4"
+                            />
+                        </video>
+
+                        <button id="play-btn" class="about__btn" onclick="playFunction()">
+                            <img src="./asset/img/Arrow - Right 2.svg" class="about__play">
+                        </button>
+
+                        <div id="about-intro" class="btn about__intro">Intro Video</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="feedback">
+            <div class="container">
+                <div class="feedback__wrap row row-cols-lg-1">
+                    <div class="col">
+                        <h2 class="heading-2">What people says</h2>
+
+                        <p class="desc feedback__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+
+                        <p class="feedback__text">“Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa.”</p>
+
+                        <div class="feedback__row">
+                            <img src="./asset/img/Group 16.svg" alt="" class="feedback__img">
+
+                            <div class="feedback__name">Joe Elia</div>
+                        </div>
+
+                        <div class="feedback__label">User Interface Design at PCL Lab</div>
+
+                        <img src="./asset/img/Sliter.svg" alt="" class="feedback__dot">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="faq">
+            <div class="container">
+                <div class="faq__wrap row row-cols-1">
+                    <div class="col">
+                        <h2 class="heading-2 faq__heading-2">A few questions <br>clients normally ask me</h2>
+
+                        <div class="faq__list">                         
+                            <div class="faq__item">
+                                <input type="checkbox" id="faq-icon-1" class="faq__btn" hidden>                               
+                                <div class="faq__row">
+                                    <div class="faq__group">  
+                                        <label for="faq-icon-1">
+                                            <h4 class="heading-4 faq__heading-4">What is your  hourly rate?</h4>
+                                        </label>
+
+                                        <p class="desc faq__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+                                    </div>
+
+                                    <label for="faq-icon-1" class="faq__icon">
+                                        <svg class="faq__icon-1" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                            <circle opacity="0.2" cx="25" cy="25" r="24" stroke="#161A1C" stroke-width="2"/>
+                                            <path d="M32.084 25.042H18" stroke="#161A1C" stroke-width="2"/>
+                                            <path d="M25.042 32.084V18" stroke="#161A1C" stroke-width="2"/>
+                                        </svg>
+
+                                        <svg class="faq__icon-2" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                            <circle opacity="0.2" cx="25" cy="25" r="24" stroke="#5D3BEE" stroke-width="2"/>
+                                            <path d="M32.084 25.042H18" stroke="#5D3BEE" stroke-width="2"/>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="faq__separate"></div>
+                            </div>
+
+                            <div class="faq__item">
+                                <input type="checkbox" id="faq-icon-2" class="faq__btn" hidden>  
+                                <div class="faq__row">
+                                    <div class="faq__group">
+                                        <label for="faq-icon-2">
+                                            <h4 class="heading-4 faq__heading-4">What type of projects do you take on?</h4>
+                                        </label>
+
+                                        <p class="desc faq__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+                                    </div>
+
+                                    <label for="faq-icon-2" class="faq__icon">
+                                        <svg class="faq__icon-1" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                            <circle opacity="0.2" cx="25" cy="25" r="24" stroke="#161A1C" stroke-width="2"/>
+                                            <path d="M32.084 25.042H18" stroke="#161A1C" stroke-width="2"/>
+                                            <path d="M25.042 32.084V18" stroke="#161A1C" stroke-width="2"/>
+                                        </svg>
+
+                                        <svg class="faq__icon-2" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                            <circle opacity="0.2" cx="25" cy="25" r="24" stroke="#5D3BEE" stroke-width="2"/>
+                                            <path d="M32.084 25.042H18" stroke="#5D3BEE" stroke-width="2"/>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="faq__separate"></div>
+                            </div>
+              
+                            <div class="faq__item">
+                                <input type="checkbox" id="faq-icon-3" class="faq__btn" hidden>  
+                                <div class="faq__row">
+                                    <div class="faq__group">
+                                        <label for="faq-icon-3">
+                                            <h4 class="heading-4 faq__heading-4">How do you charge for projects ?</h4>
+                                        </label>
+
+                                        <p class="desc faq__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+                                    </div>
+
+                                    <label for="faq-icon-3" class="faq__icon">
+                                        <svg class="faq__icon-1" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                            <circle opacity="0.2" cx="25" cy="25" r="24" stroke="#161A1C" stroke-width="2"/>
+                                            <path d="M32.084 25.042H18" stroke="#161A1C" stroke-width="2"/>
+                                            <path d="M25.042 32.084V18" stroke="#161A1C" stroke-width="2"/>
+                                        </svg>
+
+                                        <svg class="faq__icon-2" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                            <circle opacity="0.2" cx="25" cy="25" r="24" stroke="#5D3BEE" stroke-width="2"/>
+                                            <path d="M32.084 25.042H18" stroke="#5D3BEE" stroke-width="2"/>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="faq__separate"></div>
+                            </div>
+                            
+                            <div class="faq__item">
+                                <input type="checkbox" id="faq-icon-4" class="faq__btn" hidden>  
+                                <div class="faq__row">
+                                    <div class="faq__group">
+                                        <label for="faq-icon-4">
+                                            <h4 class="heading-4 faq__heading-4">What time-zone do you work in?</h4>
+                                        </label>
+
+                                        <p class="desc faq__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+                                    </div>
+
+                                    <label for="faq-icon-4" class="faq__icon">
+                                        <svg class="faq__icon-1" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                            <circle opacity="0.2" cx="25" cy="25" r="24" stroke="#161A1C" stroke-width="2"/>
+                                            <path d="M32.084 25.042H18" stroke="#161A1C" stroke-width="2"/>
+                                            <path d="M25.042 32.084V18" stroke="#161A1C" stroke-width="2"/>
+                                        </svg>
+
+                                        <svg class="faq__icon-2" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                            <circle opacity="0.2" cx="25" cy="25" r="24" stroke="#5D3BEE" stroke-width="2"/>
+                                            <path d="M32.084 25.042H18" stroke="#5D3BEE" stroke-width="2"/>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="faq__separate"></div>
+                            </div>
+
+                            <div class="faq__item">
+                                <input type="checkbox" id="faq-icon-5" class="faq__btn" hidden>  
+                                <div class="faq__row">
+                                    <div class="faq__group">
+                                        <label for="faq-icon-5">
+                                            <h4 class="heading-4 faq__heading-4">How often can we communicate?</h4>
+                                        </label>
+
+                                        <p class="desc faq__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+                                    </div>
+
+                                    <label for="faq-icon-5" class="faq__icon">
+                                        <svg class="faq__icon-1" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                            <circle opacity="0.2" cx="25" cy="25" r="24" stroke="#161A1C" stroke-width="2"/>
+                                            <path d="M32.084 25.042H18" stroke="#161A1C" stroke-width="2"/>
+                                            <path d="M25.042 32.084V18" stroke="#161A1C" stroke-width="2"/>
+                                        </svg>
+
+                                        <svg class="faq__icon-2" xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" fill="none">
+                                            <circle opacity="0.2" cx="25" cy="25" r="24" stroke="#5D3BEE" stroke-width="2"/>
+                                            <path d="M32.084 25.042H18" stroke="#5D3BEE" stroke-width="2"/>
+                                        </svg>
+                                    </label>
+                                </div>
+
+                                <div class="faq__separate"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery">
+            <div class="container">
+                <div class="gallery__wrap row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="gallery__content">
+                            <h2 class="heading-2">My atmosphere</h2>
+
+                            <p class="desc gallery__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+
+                            <div class="gallery__link">
+                                <a href="#!">@interaction_arif</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-12 col-md-12">
+                        <div class="gallery__list">
+                            <div class="gallery__item">
+                                <img src="./asset/img/Rectangle 602.svg" alt="" class="gallery__img">
+                            </div>
+
+                            <div class="gallery__item">
+                                <img src="./asset/img/Rectangle 601.svg" alt="" class="gallery__img">
+                            </div>
+
+                            <div class="gallery__item">
+                                <img src="./asset/img/Rectangle 603.svg" alt="" class="gallery__img">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="cta">
+            <div class="container">
+                <div class="cta__wrap row">
+                    <div class="col-12 col-lg-6 offset-lg-3 col-md-12">
+                        <img src="./asset/img/image 117.svg" alt="" class="cta__icon">
+
+                        <h2 class="heading-2">Got a project? Let’s talk</h2>
+
+                        <p class="desc cta__desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In urna, non nisl tincidunt ut elementum turpis.</p>
+
+                        <div class="cta__action">
+                            <a href="#!" class="btn">Book a Call</a>
+                        </div>
+                    </div>
+
+                    <img src="./asset/img/Group 18418.svg" alt="" class="cta__decorate-1">
+                    <img src="./asset/img/Group 18419.svg" alt="" class="cta__decorate-2">
+                    <img src="./asset/img/Group 18390.svg" alt="" class="cta__decorate-3">
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <nav class="footer__nav">
+                    <div class="footer__group">
+                        <a href="mailto:hi@arif.interactive" class="footer__mail">
+                            <img src="./asset/img/Group 18380.svg" alt="" class="footer__thumb">
+                        
+                            <p class="footer__link">hi@arif.interactive</p>
+                        </a>
+                    </div>
+    
+                    <!-- logo -->
+                    <div>
+                        <a href="./" class="footer__img">
+                            <img src="./asset/img/Memoji Boys 13-24.png" alt="" class="footer__logo">
+                        </a>
+                    </div>
+    
+                    <div class="footer__list">
+                        <ul>
+                            <li>
+                                <a href="#!" class="footer__item">Projects</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__item">Journey</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__item">Service</a>
+                            </li>
+                            <li>
+                                <a href="#!" class="footer__item">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+
+                <div class="footer__separate"></div>
+
+                <div class="footer__wrap">
+                    <div class="footer__copyright">©interactiveArif 2021. All rights reserved.</div>
+
+                    <div class="footer__wrap-group">
+                        <div class="footer__policy">Privacy Policy</div>
+
+                        <div class="footer__term">Terms of Conditions</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        var video = document.getElementById("videomp4");
+            var btn = document.getElementById("play-btn");
+            var videoText = document.getElementById("about-intro");
+            video.removeAttribute("controls");
+            function playFunction() {
+                if (video.paused) {
+                    video.play();
+                    btn.style.display = "none";
+                    video.setAttribute("controls", "controls");
+                    videoText.style.display = "none";
+                } else {
+                    btn.style.display = "block";
+                    video.pause();
+                }
+            }
+    </script>
+</body>
+</html>
